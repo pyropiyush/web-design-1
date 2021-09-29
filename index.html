@@ -1,63 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>University Website Design</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
     <section class="header">
-        <nav>
-            <a href="index.html"><img src="images/clipart.png" ></a>
-            <div class="nav-links" id="navLinks">
-                <i class="fa fa-times" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Course</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
-        </nav>
-        <div class="text-box">
-<h1>Uttar Pradesh best University</h1>
-<p>This is temporary sample text for new website.<br> Quaerat sint culpa velit ipsum tenetur quibusdam.</p>
-<a href=""class="hero-btn">Visit Us To Know More</a>
-
-
+      <nav>
+        <a href="index.html"><img src="images/clipart.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Course</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
         </div>
-          
-
-
-
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>Uttar Pradesh best University</h1>
+        <p>
+          This is temporary sample text for new website.<br />
+          Quaerat sint culpa velit ipsum tenetur quibusdam.
+        </p>
+        <a href="" class="hero-btn">Visit Us To Know More</a>
+      </div>
     </section>
-<!-- ---------course--------- -->
-<section>
-    <h1>Courses we offer</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing </p>
-</section>
-
-
-
+    <!-- ---------course--------- -->
+    <section class="course">
+      <h1>Courses we offer</h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing</p>
+      <div class="row">
+        <div class="course-col">
+          <h3>Intermediate</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima,
+            voluptas ad natus odit, omnis necessitatibus ratione dolores iure, a
+            in vero fuga enim? Quia?
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Degree</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima,
+            voluptas ad natus odit, omnis necessitatibus ratione dolores iure, a
+            in vero fuga enim? Quia?
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Post Graduation</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima,
+            voluptas ad natus odit, omnis necessitatibus ratione dolores iure, a
+            in vero fuga enim? Quia?
+          </p>
+        </div>
+      </div>
     
+    <section>
+      <!-- ----------campus----- -->
+      <section class="campus">
+        <h1>our global campus</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/arch.jpg" >
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+                <div class="campus-col">
+                    <img src="images/newyork.jpg.crdownload" >
+                    <div class="layer">
+                        <h3>NEW YORK</h3>
+                    </div>
+                    <div class="campus-col">
+                        <img src="images/washington.jpeg" >
+                        <div class="layer">
+                            <h3>WASHINGTON</h3>
+                        </div>
+            </div>
+        </div>
+        
+      
+    </section>
+
     <script>
-        var navLinks=document.getElementById("navLinks");
-        function showMenu(){
-            navLinks.style.right="0";
-        }
-        function hideMenu(){
-            navLinks.style.right="-200px";
-        }
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
     </script>
-    
-</body>
+  </body>
 </html>
