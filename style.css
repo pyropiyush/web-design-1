@@ -203,7 +203,7 @@ padding-top: 50px;
     width: 100%;
     font-weight:500 ;
     color: #fff;
-    font-size: 30px;
+    font-size: 26px;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
@@ -214,4 +214,26 @@ padding-top: 50px;
 .layer:hover h3{
     bottom: 70%;
     opacity: 1;
+}
+/* -------facilities----- */
+.facilitie{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.facilitie.col{
+    flex: 32%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: right;
+    margin-right: 20px;
+    position: relative;
+
+}
+.facilitie-col img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin-right: 10px;
 }
