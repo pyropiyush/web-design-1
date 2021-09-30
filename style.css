@@ -146,6 +146,7 @@ p{
     padding: 20px 12px;
     box-sizing: border-box;
     transition: 0.5s;
+    margin-bottom: 10px;
 }
 h3{
     text-align: center;
@@ -173,7 +174,6 @@ padding-top: 50px;
     flex: 32%;
     border-radius: 10px;
     border-bottom: 5%;
-    padding: 20px 12px;
    
     margin-bottom: 30px;
     margin-right: 20px;
@@ -181,8 +181,7 @@ padding-top: 50px;
     overflow: hidden;
     transition: 0.5s;
 }
-.campus-col:hover{
-    box-shadow: 0 0 20px 0px rgba(10, 4, 4, 0.2);}
+
 .campus-col img{
     width: 100%;
     display: block;
