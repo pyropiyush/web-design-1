@@ -223,17 +223,22 @@ padding-top: 50px;
     padding-top: 50px;
 }
 .facilitie.col{
-    flex: 32%;
+    flex-basis: 32%;
     border-radius: 10px;
     margin-bottom: 5%;
-    text-align: right;
-    margin-right: 20px;
-    position: relative;
-
-}
+    text-align: left;
+    }
 .facilitie-col img{
-    width: 100%;
+    width: 95%;
     height: 100%;
     border-radius: 10px;
-    margin-right: 10px;
+    
+}
+.facilitie-col p{
+    padding: 0;
+}
+.facilitie-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
 }
